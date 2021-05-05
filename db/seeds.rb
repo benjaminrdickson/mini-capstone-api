@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-product = Product.new(name: "Violin" price: 100.00 image_url:string description: "A four stringed instrument that is played with a bow") 
+product = Product.new(name: "Violin", price: 100.00, image_url: "url here", description: "A four stringed instrument that is played with a bow") 
 product.save
