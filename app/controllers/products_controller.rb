@@ -4,6 +4,8 @@ class ProductsController < ApplicationController
     product = Product.all
     render json: product.as_json
   end 
+end 
 
 
-end
+
+

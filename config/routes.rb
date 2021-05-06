@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   
   get "/product_route", controller: "products", action: "product_method"
 
+  get "/single_product_route", controller: "single_product", action: "single_product_method"
+
 end
 
