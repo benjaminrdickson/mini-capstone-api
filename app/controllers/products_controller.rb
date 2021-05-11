@@ -20,7 +20,7 @@ class ProductsController < ApplicationController
 
   def show
     product = Product.find(params[:id])
-    render json: product.as_json(:methods [:tax])
+    render json: product.as_json(methods: [:is_discounted?, :tax, :total])
   end 
 
   def update
