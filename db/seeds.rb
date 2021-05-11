@@ -20,4 +20,6 @@ product = Product.new(name: "Electric Guitar", price: 50.00, image_url: "https:/
 
 product = Product.new(name: "Bass Guitar", price: 50.00, image_url: "https://d1aeri3ty3izns.cloudfront.net/media/31/310922/600/preview_1.jpg", description: "A four stringed guitar played by plucking the strings while plugged into an amp")
 
+
+
 product = Product.new(name: "Keyboard", price: 200.00, image_url: "https://static.bhphoto.com/images/images1000x1000/1548420637_1451638.jpg", description: "An electronic piano")
